@@ -151,17 +151,17 @@ require 'server.php';
         <h2 style="font-family: 'Roboto', sans-serif;padding-left: 5%">Provide new details for your previous investment</h2><br>
         <div style="padding-left: 2rem;font-size: 20px;font-family: 'Montserrat', sans-serif;line-height: 2rem">
 
-            Company/Title of investment:<br>
+            Company/Title of investment: <abbr title="Investment title or company title." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input type="text" name="updtcompany" class="inp-style" value="<?php echo $asset_data['company'];?>"> <br><br>
-            Investment type: <br>
+            Investment type: <abbr title="Type of investment eg: Stocks, Bonds, Real Estate etc." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr> <br>
             <input type="text" name="updttype" class="inp-style" value="<?php echo $asset_data['invtype'];?>"> <br><br>
-            Amount: (&#8377;) <br>
+            Amount: (&#8377;) <abbr title="Total investment amount." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input type="text" id="amount" name="updtamount" class="inp-style" value=" <?php echo $asset_data['invamount'];?>" placeholder=" &#8377; "> <br><br>
-            Investment year: <br>
+            Investment year: <abbr title="Year in which investment was done." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input id="year" type="text" name="updtstartyear" class="inp-style" value=" <?php echo $asset_data['invstartyear'];?>"> <br><br>
-            Annual Rate of return interest on investment: (%) <br>
+            Annual Rate of return interest on investment: (%) <abbr title="Return rate on amount invested per annum." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input id="rate" type="text" name="updtrate" class="inp-style" value=" <?php echo $asset_data['invrate'];?> "> <br><br>
-            Investment Duration: (years)<br>
+            Investment Duration: (years) <abbr title="Time period of investment." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input id="duration" type="text" name="updtduration" class="inp-style" value=" <?php echo $asset_data['invduration'];?> "> <br><br>
         </div> <br>
 
