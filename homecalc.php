@@ -220,13 +220,15 @@
             <h4 style="font-family: 'Roboto', sans-serif;padding-left: 5%">Provide details for a price &amp; monthly payment</h4><br>
             <div style="padding-left: 2rem;font-size: 20px;font-family: 'Montserrat', sans-serif;line-height: 2rem">
 
-                Annual Income:<br>
+                Annual Income:   <abbr title="Total yearly income." style="text-decoration:none;font-size:18px;color:gray;padding-left:35%;">&#x24D8;</abbr>  <br>
                 <input type="number" id="inc" class="inp-style" placeholder=" &#8377 0.00" required> <br><br>
-                Monthly Debts: <br>
+                Monthly Debts: <abbr title="Total monthly debts or EMI's." style="text-decoration:none;font-size:18px;color:gray;padding-left:36%;">&#x24D8;</abbr><br>
                 <input type="number" id="debt" class="inp-style" placeholder=" &#8377 0.00" required> <br><br>
-                Down-Payment: <br>
+                Down-Payment: <abbr title="Total money that can be paid at
+the beginnig of purchasing house." style="text-decoration:none;font-size:18px;color:gray;padding-left:34%;">&#x24D8;</abbr><br>
                 <input type="number" id="dwn" class="inp-style" placeholder=" &#8377 0.00" required> <br><br>
-                Mortgage Duration: <br>
+                Mortgage Duration: <abbr title="Time duration for which the 
+house would be on mortgage." style="text-decoration:none;font-size:18px;color:gray;padding-left:27%;">&#x24D8;</abbr><br>
                 <input type="number" id="time" class="inp-style" placeholder=" 00" required> <br><br>
             </div> <br>
 
