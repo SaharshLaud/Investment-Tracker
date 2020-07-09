@@ -351,13 +351,15 @@
 
                         <div style="padding-left: 2rem;font-size: 20px;font-family: 'Montserrat', sans-serif;line-height: 2rem">
 
-                            <label for="incvar" style="width: inherit;">Annual Income:</label> <br>
+                            <label for="incvar" style="width: inherit;">Annual Income:</label> <abbr title="Total yearly income." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr> <br>
                             <input type="number" id="incvar" class="inp-style" placeholder=" &#8377 0.00" required> <br><br>
 
-                            <label for="needvar" style="width: inherit;"> Essential expenses(/month): </label><br>
+                            <label for="needvar" style="width: inherit;"> Essential expenses(/month): </label> <abbr title="Monthly Expenses that can't be avoided such as groceries, rent etc.
+(Basically your needs)." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
                             <input type="number" id="needvar" class="inp-style" placeholder=" &#8377 0.00" required> <br><br>
 
-                            <label for="wantvar" style="width: inherit;"> Non-Essential expenses(/month): </label><br>
+                            <label for="wantvar" style="width: inherit;"> Non-Essential expenses(/month): </label> <abbr title="Monthly expenses that are avoidable like movies, shopping etc.
+(Basically your wants)." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
                             <input type="number" id="wantvar" class="inp-style" placeholder=" &#8377 0.00" required> <br><br><br>
 
                         </div>
