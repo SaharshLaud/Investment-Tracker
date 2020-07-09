@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 02, 2020 at 09:55 AM
+-- Generation Time: Jul 09, 2020 at 03:33 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -35,19 +35,20 @@ CREATE TABLE `assets` (
   `invamount` float NOT NULL,
   `invstartyear` int(4) NOT NULL,
   `invrate` double NOT NULL,
-  `invduration` float NOT NULL
+  `invduration` float NOT NULL,
+  `date` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `assets`
 --
 
-INSERT INTO `assets` (`invest_id`, `usernameid`, `company`, `invtype`, `invamount`, `invstartyear`, `invrate`, `invduration`) VALUES
-(23, 'sam', 'Godrej properties', 'real estate', 2500000, 2014, 7, 15),
-(26, 'test', '       saharsh', '       stocks', 2500000, 2020, 30, 3),
-(27, 'test', '     My update ', '    update', 5000000, 2018, 4, 6),
-(45, 'test', 'investor', 'bonds', 1200000, 2000, 12, 4),
-(46, 'test', 'teset', 'real estate', 5500000, 2020, 5, 5);
+INSERT INTO `assets` (`invest_id`, `usernameid`, `company`, `invtype`, `invamount`, `invstartyear`, `invrate`, `invduration`, `date`) VALUES
+(58, 'test', 'teset', 'real estate', 5500000, 2020, 5, 5, '2020-07-02 22:37:57'),
+(59, 'test', 'saharsh', 'real estate', 5500000, 2020, 5, 5, '2020-07-02 22:38:43'),
+(60, 'test', 'sam', 'stocks', 12000000, 2020, 23, 3, '2020-07-02 22:39:59'),
+(63, 'sam', 'Godrej properties', 'real estate', 2500000, 2020, 12, 1, '2020-07-03 00:28:55'),
+(75, 'sam', 'khaitan ltd', 'bonds', 200000, 2018, 50, 5, '2020-07-03 12:13:44');
 
 -- --------------------------------------------------------
 
@@ -94,7 +95,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `assets`
 --
 ALTER TABLE `assets`
-  MODIFY `invest_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+  MODIFY `invest_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
 
 --
 -- AUTO_INCREMENT for table `users`
