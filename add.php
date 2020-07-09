@@ -145,17 +145,17 @@ text-decoration: underline;
         <h2 style="font-family: 'Roboto', sans-serif;padding-left: 5%">Provide details for your investments</h2><br>
         <div style="padding-left: 2rem;font-size: 20px;font-family: 'Montserrat', sans-serif;line-height: 2rem">
 
-            Company/Title of investment:<br>
+            Company/Title of investment: <abbr title="Investment title or company title." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input type="text" name="inpcompany" class="inp-style" required> <br><br>
-            Investment type: <br>
+            Investment type: <abbr title="Type of investment eg: Stocks, Bonds, Real Estate etc." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input type="text" name="inptype" class="inp-style" required> <br><br>
-            Amount: <br>
+            Amount: <abbr title="Total investment amount." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input id="amount" type="text" name="inpamount" class="inp-style" placeholder=" &#8377 0.00" required> <br><br>
-            Investment year: <br>
+            Investment year: <abbr title="Year in which investment was done." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input id="year" type="text" name="inpstartyear" class="inp-style" placeholder=" YYYY" required> <br><br>
-            Annual Rate of return interest on investment:<br>
+            Annual Rate of return interest on investment: <abbr title="Return rate on amount invested per annum." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input id="rate" type="text" name="inprate" class="inp-style" placeholder=" 00%" required> <br><br>
-            Investment Duration: <br>
+            Investment Duration: <abbr title="Time period of investment." style="text-decoration:none;font-size:18px;color:gray;">&#x24D8;</abbr><br>
             <input id="duration" type="text" name="inpduration" class="inp-style" placeholder=" 00 years" required> <br><br>
         </div> <br>
 
