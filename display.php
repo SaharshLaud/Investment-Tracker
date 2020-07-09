@@ -151,7 +151,7 @@ require 'server.php';
 font-size:25px;"> Username:
         <?php echo $_SESSION['username']; ?><?php endif ?></h3>
 
-    <a href="add.php" style="color:bisque;float:right;padding-right:11%;font-family: 'Poppins', sans-serif;font-size:25px;"> Add Investment</a>
+    <a href="add.php" style="color:bisque;float:right;padding-right:16%;font-family: 'Poppins', sans-serif;font-size:25px;"> Add Investment</a>
     <br><br>
     <table>
         <tr>
@@ -162,7 +162,7 @@ font-size:25px;"> Username:
             <th>Annual rate</th>
             <th>Duration</th>
             <th>Record Date</th>
-            <th>Time</th>
+            
         </tr>
         <?php 
     if (isset($_SESSION['username'])){
